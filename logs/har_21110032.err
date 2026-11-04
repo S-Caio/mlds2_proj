@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/d/hpc/home/cs67685/mlds2_proj/process_data_fixed.py", line 15, in <module>
+    from process_data_utils import (import_raw_signals, import_labels_file, visualize_triaxial_signals)
+  File "/d/hpc/home/cs67685/mlds2_proj/process_data_utils.py", line 12, in <module>
+    from IPython.display import display
+ModuleNotFoundError: No module named 'IPython'

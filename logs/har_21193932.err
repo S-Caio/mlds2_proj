@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/d/hpc/home/cs67685/mlds2_proj/process_data_fixed.py", line 167, in <module>
+    tw = pf.Windowing_type_1(time_sig_dic, Labels_Data_Frame, max_activity=12, shift=s)
+TypeError: Windowing_type_1() got an unexpected keyword argument 'shift'

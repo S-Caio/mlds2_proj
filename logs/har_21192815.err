@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/d/hpc/home/cs67685/mlds2_proj/process_data_fixed.py", line 140, in <module>
+    res = sweep(variants, build_freq, FREQ)
+  File "/d/hpc/home/cs67685/mlds2_proj/process_data_fixed.py", line 115, in sweep
+    saved = dict(pf.CFG)
+                 ^^^^^^
+AttributeError: module 'process_data_utils_fixed' has no attribute 'CFG'
